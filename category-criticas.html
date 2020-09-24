@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Criticas - CinemORT</title>
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/codigo.js"></script>
+  <script src="js/navegacion.js"></script>
+  
+
+</head>
+
+<body>
+  <!--Barra Superior Titulo-->
+  <div>
+    <!--<div style="background-color:orange;opacity:75%;">-->
+    <div style="background-image: linear-gradient(to right, yellow, orange);">
+      <div class="row">
+        <div class="col-lg-8 col-sm-6">
+          <a href="index.html"><img src="images/logo_2.3.png" style="margin-left: 5px;" alt="Logo"></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <!-- <a class="navbar-brand" href="#">Cine</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- Dropdown Peliculas -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Peliculas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="category-peliculas.html#accion">Accion</a>
+            <a class="dropdown-item" href="category-peliculas.html#comedia">Comedia</a>
+            <a class="dropdown-item" href="category-peliculas.html#terror">Terror</a>
+            <a class="dropdown-item" href="category-peliculas.html#suspenso">Suspenso</a>
+          </div>
+        </li>
+
+        <!-- Dropdown Series -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Series
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="category-series.html#accion">Accion</a>
+            <a class="dropdown-item" href="category-series.html#comedia">Comedia</a>
+            <a class="dropdown-item" href="category-series.html#terror">Terror</a>
+            <a class="dropdown-item" href="category-series.html#suspenso">Suspenso</a>
+          </div>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="category-criticas.html">Criticas</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="nosotros.html">Nosotros </a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form-inline my-2 my-lg-0">
+      <!--Buscador-->
+      <input class="form-control mr-sm-2" type="search" placeholder="Ingrese Pelicula, serie..." aria-label="Search"
+        alt="Ingreses Pelicula, serie, actor o director">
+      <button class="btn btn-outline-success-cust my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+
+    </div>
+  </nav>
+
+  <!--Tabs-->
+  <div class="container mt-3">
+    <div class="row titulosPaginas">
+      
+      <div class="col-lg-8 col-md-6 col-xs-12 ">
+        <h2>Criticas - Elige el contenido</h2>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-xs-12 puntaje-cust">
+        <span class="heading-cust">Rating de usuarios</span>
+        <br>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star checked" style="color: orange;"></span>
+        <span class="fa fa-star"></span>
+        <p>Puntaje promedio: 4.1 [254 votos]</p>
+      </div>
+
+    </div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#critica">Critica</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#trailer">Trailer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#resenias">Reseñas de Usuarios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#entrevistas">Entrevistas</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <!-- Panel 1 -->
+      <div id="critica" class="container tab-pane active"><br>
+        <div class="container container-entrevistas-cust">
+          <div class="row">
+            <h3 class="header-critica-cust">Critico Invitado: El Nir OK</h3>
+            <h5 class="subtitulo-critica-cust">En esta oportunidad tenemos el honor de recibir como critico invitado al
+              gran <a href="https://www.youtube.com/channel/elNirOk" alt="https://www.youtube.com/channel/elNirOk"><b>EL
+                  NIR OK</b></a>, que con generosidad nos da su tiempo para analizar a fondo esta pelicula</h5>
+            <p class="texto-cust"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.<br>
+              <br>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+              incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+              vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+              dolorem eum fugiat quo voluptas nulla pariatur?<br>
+              <br>
+              Saludos!
+              El Nir OK.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Panel 2 -->
+      <div id="trailer" class="container tab-pane fade"><br>
+        <div class="container">
+          <div class="row">
+             <h3 class="header-critica-cust">Trailer oficial</h3>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sj9J2ecsSpo"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="row cards">
+            <!-- Tarjetas de viedo inferiores -->
+            <div class="col-md-4 cardVideo">
+              <div class="cardBody">
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/NLT2TLBCLzg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="button-label">
+                      <h5 class="header-critica-cust">Version Alternativa: Espaniol</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 cardVideo">
+              <div class="cardBody">
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/nXmZhiZtoro" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe> </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="button-label">
+                      <h5 class="header-critica-cust">Creacion de la historia</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 cardVideo">
+              <div class="cardBody">
+                <div class="video-container">
+                  <iframe src="https://www.youtube.com/embed/sdUOhSuRQKA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="button-label">
+                      <h5 class="header-critica-cust">Todo lo que sabemos de Wandavision</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Panel 3 -->
+      <div id="resenias" class="container tab-pane fade"><br>
+        <div class="container container-entrevistas-cust">
+          <div class="form-group purple-border">
+            <h3><label class="header-critica-cust" for="resenias_usuarios">Reseñas recientes</label></h3>
+
+            <div class="comentarios" id="resenias_usuarios">
+              <div class="container" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-left: 5px;">
+              <label class="titulo-critica-cust" for="resenia1">Reseña # 1</label>
+              <div id="resenia1">
+                <p class="titulo-comentario-cust">Titulo Critica 1</p>
+                <p class="texto-comentario-cust">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+              </div>
+              <br>
+
+              <label class="titulo-critica-cust" for="resenia2">Reseña # 2</label>
+              <div id="resenia1">
+                <p class="titulo-comentario-cust">Titulo Critica 3</p>
+                <p class="texto-comentario-cust">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+              </div>
+              <br>
+
+              <label class="titulo-critica-cust" for="resenia1">Reseña # 3</label>
+              <div id="resenia1">
+                <p class="titulo-comentario-cust">Titulo Critica 3</p>
+                <p class="texto-comentario-cust">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+              </div>
+              <br>
+
+
+            </div>
+
+
+          </div>
+
+
+          <div class="column-12" style="border-color: orange;">
+            <div class="form-group purple-border" style="margin-top: 15px;">
+              <h2><label class="header-critica-cust" for="exampleFormControlTextarea4">Envia tu Reseña!</label></h2>
+              <textarea class="form-control" id="exampleFormControlTextarea4" rows="5"></textarea>
+            </div>
+            <div class="row">
+              <button class="btn btn-outline-success-cust my-2 my-sm-0" type="submit"
+                style="margin-left: 20px;">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Panel 4 -->
+      <div id="entrevistas" class="container tab-pane fade"><br>
+       
+       
+
+        <div class="container-entrevistas-cust">
+          <h2 class="titulo-critica-cust">Entrevistas Recientes</h2>
+          <div class="list-news">
+   
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #1</p>
+              <a href="#Entrevista_1" data-toggle="tab">Pequenia descripcion Entrevista #1<i>→</i></a>
+            </div>
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #2</p>
+              <a href="#Entrevista_2" data-toggle="tab">Pequenia descripcion Entrevista #2<i>→</i></a>
+            </div>
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #3</p>
+              <a href="#Entrevista_3" data-toggle="tab">Pequenia descripcion Entrevista #3<i>→</i></a>
+            </div>
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #4</p>
+              <a href="#Entrevista_4" data-toggle="tab">Pequenia descripcion Entrevista #4<i>→</i></a>
+            </div>
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #5</p>
+              <a href="#Entrevista_5" data-toggle="tab">Pequenia descripcion Entrevista #5<i>→</i></a>
+            </div>
+            <div class="cuadrito-entrevistas-cust">
+              <p>Entrevista #6</p>
+              <a href="#Entrevista_6" data-toggle="tab">Pequenia descripcion Entrevista #6<i>→</i></a>
+            </div>
+                
+                <div>
+                  <a href="#archivo" data-toggle="tab" class="titulo-critica-cust"><i>→</i>Archivo</a>
+                </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div id="footer_cust">
+    <h3 style="text-align: center;">Seguinos en nuestras redes</h3>
+    <div class="table-responsive">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><a href="#">Youtube: <i class="fa fa-youtube"></i></a></td>
+            <td><a href="#">Facebook: <i class="fa fa-facebook"></i></a></td>
+            <td><a href="#">Twitter: <i class="fa fa-twitter"></i></a></td>
+            <td><a href="#">GitHub: <i class="fa fa-github"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .topright {
+
+    top: 20px;
+    right: 10px;
+    font-size: 18px;
+  }
+</style>
+
+
+<span class="backtotop" style="display: none;">
+  <i class="flownewsicon fa-angle-up"></i>
+</span>
+
